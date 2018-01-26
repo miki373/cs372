@@ -35,3 +35,16 @@ When not current users turn: disable access to game
 Jquery will poll database every n milliseconds for updated game state (how fast do we do this not to overload server but have decent reaction time? Need to test this to be sure)
 
 
+Chat:
+-Using database table for each game
+-Global chat? Global and local?
+
+GUI:
+-Sketches?
+
+ANY OTHER IDEAS? 
+FEEL FREE TO ADD, DELETE OR MODEFY ANY PART OF THIS TEXT 
+
+
+
+THANKS.
