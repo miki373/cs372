@@ -25,19 +25,36 @@ Option 1:
 Each game will have DB table with current game state 
 Game state should have:
 Turn (Player 1 or 2)
-Tile states ( touple (xy))
+Tile states (tuple (x,y))
 Time between turns. (After what time do we forfeit game?)
 
 Accessing DB:
-(Jquery)Ajax and PHP:
-When it is current users turn: allow user to click or use keypad to set tile
+(JQuery)Ajax and PHP: 
+When it is current users turn: allow user to click or use keypad to set tile.
 When not current users turn: disable access to game
-Jquery will poll database every n milliseconds for updated game state (how fast do we do this not to overload server but have decent reaction time? Need to test this to be sure)
+JQuery will poll database every n milliseconds for updated game state (how fast do we do this not to overload server but have decent reaction time? Need to test this to be sure)
 
 
 Chat:
 -Using database table for each game
 -Global chat? Global and local?
+
+OTHER IDEAS IF THERE IS TIME:
+Check if user is active or not.
+If user closes window or minimizes tab set database field and alert other user.
+If user inactive for n milliseconds, forfeit game and set database
+
+Game complexity
+Allow N * N game, meaning N tiles vertical and N horizontal 
+Allow N number of players 
+Allow N humans + AI
+
+Sounds:
+Play sounds on win/loose
+
+Login:
+Allow Facebook, Google account creation/login via api. 
+
 
 GUI:
 -Sketches?
