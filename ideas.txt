@@ -4,7 +4,7 @@ User types:
 Player:
 -Able to create account
 -View online users
--View users statistics: skill level, left game early, rude in chat etc…
+-View users statistics: skill level, left game early, rude in chat etcâ€¦
 -Join/Leave game
 -Choose opponent: AI/Human (if no human online auto choose AI)
 -Chat with opponent?
@@ -45,12 +45,18 @@ If user closes window or minimizes tab set database field and alert other user.
 If user inactive for n milliseconds, forfeit game and set database
 
 Game complexity
-Allow N * N game, meaning N tiles vertical and N horizontal 
+Allow N * N game, meaning N tiles vertical and N horizontal // If we do this, then is still called tic tac toe? We would need to define our own rules then.
+
 Allow N number of players 
 Allow N humans + AI
 
 Sounds:
 Play sounds on win/loose
+
+animations: 
+Make animations for the X and O
+Animation for crossing the winner X or O
+
 
 Login:
 Allow Facebook, Google account creation/login via api. 
