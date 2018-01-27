@@ -1,4 +1,4 @@
-Tic Tac Toe
+﻿Tic Tac Toe
 
 User types:
 Player:
@@ -45,7 +45,11 @@ If user closes window or minimizes tab set database field and alert other user.
 If user inactive for n milliseconds, forfeit game and set database
 
 Game complexity
-Allow N * N game, meaning N tiles vertical and N horizontal // If we do this, then is still called tic tac toe? We would need to define our own rules then.
+Allow N * N game, meaning N tiles vertical and N horizontal 
+// If we do this, then is still called tic tac toe?  
+	// Yes, there are 4*4, 5*5 …  games already out. 
+We would need to define our own rules then.
+	// We could use same rules as original game. First to have N in vertical, horizontal or diagonal wins. 	In addition we could add rules that make the game more interesting/harder. 
 
 Allow N number of players 
 Allow N humans + AI
