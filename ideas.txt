@@ -67,7 +67,7 @@ Adobe might be helpful here. I think there's something that can animate. I'm not
 
 Login:
 Allow Facebook, Google account creation/login via api. 
-
+	-I think it's best to choose one. I have see this in another project, but it took a long time to do. (Xin)
 
 GUI:
 -Sketches? 
