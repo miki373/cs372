@@ -3,9 +3,10 @@
 User types:
 Player:
 -Able to create account
--View online users
+-View online users 
 -View users statistics: skill level, left game early, rude in chat etc…
--Join/Leave game
+-Join/Leave game 
+	- Allow leaving a game whenever. If no one is around, and the player is already in a game with AI do we notify through global 		chat when someone is online? (Xin) 
 -Choose opponent: AI/Human (if no human online auto choose AI)
 -Chat with opponent?
 
@@ -38,6 +39,7 @@ JQuery will poll database every n milliseconds for updated game state (how fast 
 Chat:
 -Using database table for each game
 -Global chat? Global and local?
+	-Global chat is good to see who's around? Depending on how we set it up? (Xin)
 
 OTHER IDEAS IF THERE IS TIME:
 Check if user is active or not.
@@ -50,7 +52,7 @@ Allow N * N game, meaning N tiles vertical and N horizontal
 	// Yes, there are 4*4, 5*5 …  games already out. 
 We would need to define our own rules then.
 	// We could use same rules as original game. First to have N in vertical, horizontal or diagonal wins. 	In addition we could add rules that make the game more interesting/harder. 
-
+	-I prefer this to be a stretch goal. (Xin)
 Allow N number of players 
 Allow N humans + AI
 
@@ -60,6 +62,7 @@ Play sounds on win/loose
 animations: 
 Make animations for the X and O
 Animation for crossing the winner X or O
+Adobe might be helpful here. I think there's something that can animate. I'm not sure how well it'll intergrate for us. I do have an Adobe CC account. Let me see if I can look into it. (Xin)
 
 
 Login:
@@ -67,7 +70,8 @@ Allow Facebook, Google account creation/login via api.
 
 
 GUI:
--Sketches?
+-Sketches? 
+I'll see if I can pull up a sketch in Adobe. It can generate CSS. This might go well with the animation. I'm not super proficient at it yet. But anything can be learned with time right? (Xin)
 
 ANY OTHER IDEAS? 
 FEEL FREE TO ADD, DELETE OR MODEFY ANY PART OF THIS TEXT 
