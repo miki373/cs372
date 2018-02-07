@@ -30,3 +30,6 @@ u_id2 VARCHAR(255),
 PRIMARY KEY (g_id)
 );
 
+
+username: xiaxi203
+password: summer
