@@ -1,5 +1,6 @@
 CREATE TABLE gameUser (
 u_id INT NOT NULL AUTO_INCREMENT,
+g_id INT NOT NULL,
 email VARCHAR(255) NOT NULL,
 password VARCHAR(30) NOT NULL,
 totalGames INT,
@@ -7,7 +8,8 @@ wins INT,
 losses INT,
 playing BOOL,
 online BOOL,
-PRIMARY KEY (u_id)
+PRIMARY KEY (u_id),
+FOREIGN KEY (g_id) REFERENCES gamePlay(g_id)
 );
 
 CREATE TABLE gamePlay (
