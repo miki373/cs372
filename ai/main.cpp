@@ -61,16 +61,14 @@ int main()
 	{
 	case X: cout << "AI WON!\n"; break;
 	case O: cout << "HUMAN WON!\n"; break;
-	case -1: cout << "NO MORE MOVES\n"; break;
-	default:
-		break;
+	default: cout << "NO MORE MOVES\n"; break;
 	}
 	print(tic_tac);
 	
 	
 
 }
-
+// sets initial game state
 void init(int * game)
 {
 	for (int i = 0; i < SIZE; i++)
@@ -78,6 +76,7 @@ void init(int * game)
 		game[i] = EMPTY;
 	}
 }
+// prints 3x3 game CLI
 void print(int * game)
 {
 	cout << " -------------\n";
@@ -103,6 +102,7 @@ void print(int * game)
 	cout << " | \n";
 	cout << " -------------\n";
 }
+// Makes the move
 bool move(int * game,int position ,int player)
 {
 	if (player == O)
@@ -125,6 +125,7 @@ bool move(int * game,int position ,int player)
 		
 	
 }
+// Checks if there is a winner
 int win(int * game)
 {
 
@@ -174,6 +175,9 @@ int win(int * game)
 	}
 	
 }
+// MINIMAX generic algorithm returns best path
+// though a graph for 2 player games
+// in this case, returns best move
 moves minimax(int* game, int player)
 {
 	moves this_move;
@@ -246,7 +250,7 @@ moves minimax(int* game, int player)
 	return game_moves[move];
 }
 
-
+// Check if there are available moves
 bool available_moves(int* game)
 {
 	for (int i = 0; i < SIZE; i++)
