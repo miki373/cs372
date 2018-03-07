@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html, body {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+
+.wrapper-for-game {
+  margin-top: 25px;
+  width: 450px;
+}
+
+i.material-icons.clear{
+  color: steelblue;
+  font-size: 50px;
+}
+
+i.material-icons.panorama_fish_eye {
+  color: red;
+  font-size: 50px;
+}
+
+mat-grid-tile {
+  cursor: pointer;
+  }
+
+.tic-tac-grid mat-grid-tile:nth-child(2),
+.tic-tac-grid mat-grid-tile:nth-child(5),
+.tic-tac-grid mat-grid-tile:nth-child(8)
+{
+  border-left: 5px solid #ccc;
+  border-right: 5px solid #ccc;
+}
+
+.tic-tac-grid mat-grid-tile:nth-child(4),
+.tic-tac-grid mat-grid-tile:nth-child(5),
+.tic-tac-grid mat-grid-tile:nth-child(6)
+{
+  border-top: 5px solid #ccc;
+  border-bottom: 5px solid #ccc;
+}
+
+.table-bordered tr, .table-bordered td, .table-bordered th {
+  border: 3px solid black;
+}

@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="wrapper-for-game">
+        <mat-grid-list class="tic-tac-grid" cols="3">
+          <mat-grid-tile *ngFor="let block of gameService.blocks; let i = index;"
+                         (click)="playerClick(i)">
+            <i [class]="block.symbol == 'X' ? 'material-icons clear' : 'material-icons panorama_fish_eye'">{{ block.symbol }}</i>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h4>Score: </h4>
+      <table class="table table-bordered">
+        <tbody>
+        <tr>
+          <td>Player 1: </td>
+          <td>{{ gameService.players[0].score }}</td>
+        </tr>
+        <tr>
+          <td>Player 2: </td>
+          <td>{{ gameService.players[1].score }}</td>
+        </tr>
+        <tr>
+          <td>Draw:</td>
+          <td>{{ gameService.draw }}</td>
+        </tr>
+        </tbody>
+      </table>
+      <a class="pull-right text-right btn btn-danger" (click)="resetGame($event)" href="#">Reset Game</a>
+    </div>
+  </div>
+</div>
