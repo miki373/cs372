@@ -7,8 +7,15 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatCardModule} from '@angular/material/card';
-import {MatCheckboxModule, MatDialogModule, MatListModule, MatNativeDateModule, MatSidenavModule,
-  MatToolbarModule} from '@angular/material';
+import {
+  MatCheckboxModule,
+  MatDialogModule,
+  MatListModule,
+  MatNativeDateModule,
+  MatSidenavModule,
+  MatTableModule,
+  MatToolbarModule
+} from '@angular/material';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSelectModule} from '@angular/material/select';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
@@ -34,7 +41,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatProgressSpinnerModule,
     MatDialogModule,
     MatSnackBarModule,
-    MatGridListModule
+    MatGridListModule,
+    MatTableModule
   ],
   exports: [
     CommonModule,
@@ -54,7 +62,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatProgressSpinnerModule,
     MatDialogModule,
     MatSnackBarModule,
-    MatGridListModule
+    MatGridListModule,
+    MatTableModule
   ],
   declarations: []
 })

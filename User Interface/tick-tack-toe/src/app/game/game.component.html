@@ -7,24 +7,36 @@
           </mat-grid-tile>
         </mat-grid-list>
       </div>
-  <div class="score-board">
-      <h4>Score: </h4>
-      <table class="table table-bordered">
-        <tbody>
-        <tr>
-          <td>Player 1: </td>
-          <td>{{ gameService.players[0].score }}</td>
-        </tr>
-        <tr>
-          <td>Player 2: </td>
-          <td>{{ gameService.players[1].score }}</td>
-        </tr>
-        <tr>
-          <td>Draw:</td>
-          <td>{{ gameService.draw }}</td>
-        </tr>
-        </tbody>
-      </table>
+
+
+  <div class="score-board mat-elevation-z3" fxFlex="35%">
+    <mat-table [dataSource]="dataSource">
+      <!--USERNAME COLUMN-->
+      <ng-container matColumnDef="username">
+        <mat-header-cell *matHeaderCellDef>Username</mat-header-cell>
+        <mat-cell *matCellDef="let user"> {{user.username}} </mat-cell>
+      </ng-container>
+      <!--WINS COLUMN-->
+      <ng-container matColumnDef="win">
+        <mat-header-cell *matHeaderCellDef>Win</mat-header-cell>
+        <mat-cell *matCellDef="let user">{{user.win}}</mat-cell>
+      </ng-container>
+      <!--LOSE COLUMN-->
+      <ng-container matColumnDef="lose">
+        <mat-header-cell *matHeaderCellDef>Lose</mat-header-cell>
+        <mat-cell *matCellDef="let user">{{user.lose}}</mat-cell>
+      </ng-container>
+      <!--DRAW COLUMN-->
+      <ng-container matColumnDef="draw">
+        <mat-header-cell *matHeaderCellDef>Draw</mat-header-cell>
+        <mat-cell *matCellDef="let user">{{user.draw}}</mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="columnsToDisplay"></mat-header-row>
+      <mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></mat-row>
+
+    </mat-table>
+
     <button type="button"
             mat-raised-button color="warn"
             class="pull-right text-right"
