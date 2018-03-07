@@ -1,6 +1,4 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
+<div class="container" fxLayout="row" fxLayoutGap="50px" fxLayoutAlign="space-around">
       <div class="wrapper-for-game">
         <mat-grid-list class="tic-tac-grid" cols="3">
           <mat-grid-tile *ngFor="let block of gameService.blocks; let i = index;"
@@ -9,8 +7,7 @@
           </mat-grid-tile>
         </mat-grid-list>
       </div>
-    </div>
-    <div class="col-md-4">
+  <div class="score-board">
       <h4>Score: </h4>
       <table class="table table-bordered">
         <tbody>
@@ -28,7 +25,10 @@
         </tr>
         </tbody>
       </table>
-      <a class="pull-right text-right btn btn-danger" (click)="resetGame($event)" href="#">Reset Game</a>
-    </div>
+    <button type="button"
+            mat-raised-button color="warn"
+            class="pull-right text-right"
+            (click)="resetGame($event)">Reset Game
+    </button>
   </div>
 </div>
