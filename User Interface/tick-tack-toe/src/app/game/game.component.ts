@@ -10,7 +10,7 @@ import {GameService} from '../game.service';
 export class GameComponent implements OnInit {
   // lockCLick = false;
   dataSource = PLAYER_DATA;
-  columnsToDisplay = ['username', 'win', 'lose', 'draw'];
+  columnsToDisplay = ['username', 'win', 'draw'];
   constructor( public gameService: GameService ) {}
   // newGame() {
   //   this.gameService.freeBlocksRemaining = 9;
@@ -21,6 +21,7 @@ export class GameComponent implements OnInit {
   ngOnInit() {
 
   }
+
   resetGame(event) {
     location.reload();
     event.preventDefault();
