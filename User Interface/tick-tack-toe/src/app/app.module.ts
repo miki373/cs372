@@ -13,9 +13,10 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
 import { GameComponent } from './game/game.component';
-import { TableComponent } from './game/table/table.component';
 import { ScoreComponent } from './game/score/score.component';
-import {GameService} from './game.service';
+import {GameService} from './game/game.service';
+import { GameBoardComponent } from './game/game-board/game-board.component';
+import { NewGameComponent } from './game/new-game/new-game.component';
 
 
 @NgModule({
@@ -27,8 +28,9 @@ import {GameService} from './game.service';
     SignupComponent,
     LoginComponent,
     GameComponent,
-    TableComponent,
-    ScoreComponent
+    ScoreComponent,
+    GameBoardComponent,
+    NewGameComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import {GameService} from './game.service';
     FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [GameService],
   bootstrap: [AppComponent]

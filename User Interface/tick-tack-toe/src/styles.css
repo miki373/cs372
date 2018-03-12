@@ -10,10 +10,6 @@ body {
   height: 100vh;
 }
 
-
-.wrapper-for-game {
-}
-
 i.material-icons.clear{
   color: steelblue;
   font-size: 50px;
@@ -24,26 +20,3 @@ i.material-icons.panorama_fish_eye {
   font-size: 50px;
 }
 
-mat-grid-tile {
-  cursor: pointer;
-  }
-
-.tic-tac-grid mat-grid-tile:nth-child(2),
-.tic-tac-grid mat-grid-tile:nth-child(5),
-.tic-tac-grid mat-grid-tile:nth-child(8)
-{
-  border-left: 5px solid #ccc;
-  border-right: 5px solid #ccc;
-}
-
-.tic-tac-grid mat-grid-tile:nth-child(4),
-.tic-tac-grid mat-grid-tile:nth-child(5),
-.tic-tac-grid mat-grid-tile:nth-child(6)
-{
-  border-top: 5px solid #ccc;
-  border-bottom: 5px solid #ccc;
-}
-
-.table-bordered tr, .table-bordered td, .table-bordered th {
-  border: 3px solid black;
-}
