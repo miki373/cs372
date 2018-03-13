@@ -1,0 +1,20 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="HJETtbgBYG">
+    <style type="text/css">
+        @-webkit-keyframes HkU6YWgBtz_HkoqWxHtG_Animation{
+0%{-webkit-transform: scale(0, 0);transform: scale(0, 0);}
+100%{-webkit-transform: scale(1, 1);transform: scale(1, 1);}}
+@keyframes HkU6YWgBtz_HkoqWxHtG_Animation{
+0%{-webkit-transform: scale(0, 0);transform: scale(0, 0);}
+100%{-webkit-transform: scale(1, 1);transform: scale(1, 1);}}
+#HJETtbgBYG *{-webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);animation-timing-function: cubic-bezier(0, 0, 1, 1);transform-box: fill-box;-webkit-transform-origin: 50% 50%;transform-origin: 50% 50%;}
+#HkU6YWgBtz{cursor: text;stroke: #000000;-webkit-transform:  matrix(1.2295639514923096,0,0,1.3333333730697632,-28.107236310839653,-74.66667556762695);transform:  matrix(1.2295639514923096,0,0,1.3333333730697632,-28.107236310839653,-74.66667556762695);stroke-width: 0;fill: #7f003f;}
+#HkU6YWgBtz_HkoqWxHtG{-webkit-transform-origin: undefined;transform-origin: undefined;-webkit-animation-name: HkU6YWgBtz_HkoqWxHtG_Animation;animation-name: HkU6YWgBtz_HkoqWxHtG_Animation;-webkit-animation-timing-function: cubic-bezier(0.42, 0, 1, 1);animation-timing-function: cubic-bezier(0.42, 0, 1, 1);}
+    </style>
+    <g id="HkSat-lrKM">
+        <g id="HkU6YWgBtz_HkoqWxHtG" data-animator-group="true" data-animator-type="2">
+            <text font-weight="bold" text-anchor="middle" font-family="Sans-serif" font-size="24" id="HkU6YWgBtz" y="219" x="164">
+                O
+            </text>
+        </g>
+    </g>
+</svg>

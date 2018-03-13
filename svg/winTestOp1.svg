@@ -1,0 +1,21 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="H1VROoJrKf">
+    <style type="text/css">
+        @-webkit-keyframes HkIA_jJSFG_rkK13krtG_Animation{
+0%{-webkit-transform: scale(0, 1);transform: scale(0, 1);}
+100%{-webkit-transform: scale(1, 1);transform: scale(1, 1);}}
+@keyframes HkIA_jJSFG_rkK13krtG_Animation{
+0%{-webkit-transform: scale(0, 1);transform: scale(0, 1);}
+100%{-webkit-transform: scale(1, 1);transform: scale(1, 1);}}
+#H1VROoJrKf *{-webkit-animation-duration: 3s;animation-duration: 3s;-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);animation-timing-function: cubic-bezier(0, 0, 1, 1);transform-box: fill-box;-webkit-transform-origin: 50% 50%;transform-origin: 50% 50%;}
+#HkIA_jJSFG{stroke: #000000;-webkit-transform:  matrix(1.2295639514923096,0,0,1.3333333730697632,-28.107236310839653,-74.66667556762695);transform:  matrix(1.2295639514923096,0,0,1.3333333730697632,-28.107236310839653,-74.66667556762695);stroke-width: 0;fill: #7f003f;-webkit-transform-origin: undefined;transform-origin: undefined;}
+#S1rA_jyHKf{-webkit-transform-origin: undefined;transform-origin: undefined;}
+#HkIA_jJSFG_rkK13krtG{-webkit-transform-origin: undefined;transform-origin: undefined;-webkit-animation-name: HkIA_jJSFG_rkK13krtG_Animation;animation-name: HkIA_jJSFG_rkK13krtG_Animation;-webkit-animation-timing-function: cubic-bezier(0.42, 0, 1, 1);animation-timing-function: cubic-bezier(0.42, 0, 1, 1);}
+    </style>
+    <g id="S1rA_jyHKf">
+        <g id="HkIA_jJSFG_rkK13krtG" data-animator-group="true" data-animator-type="2">
+            <text font-weight="bold" text-anchor="middle" font-family="Sans-serif" font-size="24" id="HkIA_jJSFG" y="219" x="164">
+                WINNER
+            </text>
+        </g>
+    </g>
+</svg>
