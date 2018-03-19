@@ -156,7 +156,7 @@ class CheckWinner
          */
         if(this.state[2] != empty && (this.state[2] == this.state[5]) && (this.state[5] == this.state[8]) && (this.state[8] == this.state[2]))
         {
-            return this.state[0];
+            return this.state[2];
         }
 
         /*
