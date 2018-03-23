@@ -22,9 +22,9 @@ export class AiBoardComponent implements OnInit {
     this.aiService.state = this.blocks;
     this.aiService.aisign = 'O';
     this.aiService.humansign = 'X';
-    this.aiMove = this.aiService.getMove();
+    this.aiMove = this.aiService.minimax(this.blocks,'O');
     console.log(this.aiMove);
-    this.blocks[this.aiMove] = 'O';
+    this.blocks[this.aiMove[0]] = 'O';
   }
 
 }
