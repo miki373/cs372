@@ -189,7 +189,7 @@ export class AiService {
   }
 
 
-  private minimax(state: string[], player: string)
+  minimax(state: string[], player: string)
   {
     // Hold alailabe moves at each level of recursion
     // move val is a 2d array with first index [x][] pointing to moves array
