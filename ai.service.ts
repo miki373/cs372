@@ -209,12 +209,12 @@ export class AiService {
 
     // Begin base case
     // If its my turn and I worn, return +10, position do not care
-    if (winner === this.aisign) {
+    if (winner === 'X') {
       move_val[this.score] = 10;
       return move_val;
     }
     // If opponenets turn and they won, return -10, position do not care
-    if (winner === this.humansign) {
+    if (winner === 'O') {
       move_val[this.score] = -10;
       return move_val;
     }
